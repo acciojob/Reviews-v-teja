@@ -49,7 +49,7 @@ const App = () => {
                     <img className="person-img" src={data[index].image}></img>
                 </div>
                 <div>
-                    <span className="author" id={index+1}>Name: {data[index].name}</span>
+                    <span className="author" id={`author-${index + 1}`}>Name: {data[index].name}</span>
                     <p className="job">Job: {data[index].job}</p>           
                     <p className="info">Text: {data[index].text}</p>  
                 </div>
