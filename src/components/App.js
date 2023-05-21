@@ -51,7 +51,8 @@ const App = () => {
                 <div>
                     <span className="author" id={index+1}>Name: {data[index].name}</span>
                     <p className="job">Job: {data[index].job}</p>
-                    <p className="info">Text: { data[index].text}</p>
+                    <p className="info">Text: {data[index].text}</p>
+                    
                 </div>
                 <div>
                 <button className="prev-btn" onClick={handlePrevClick}>Previous</button>
