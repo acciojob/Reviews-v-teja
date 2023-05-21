@@ -1,7 +1,7 @@
 import React from "react";
 import data from "./Data";
-import "/Users/V.T/Desktop/ReactJSProjects/Reviews-v-teja/src/styles/App.css"
 import { useState } from "react";
+import '../styles/App.css';
 
 
 
